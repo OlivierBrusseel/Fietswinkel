@@ -1,0 +1,43 @@
+#s43{
+    display:none;
+}
+
+#s50{
+    display:none;
+}
+
+#s57{
+    display:none;
+}
+
+#s61{
+    display:none;
+}
+
+#nosize{
+    display:none;
+}
+body{
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo{
+    width: 30%;
+    height: 100%;
+}
+
+.choice{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img{
+    height: 200px;
+    width: 250px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

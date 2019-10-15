@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fietsen</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form action="">
+        <p>Kies uit de volgende fietsen:</p>
+            <input type="radio" name="type" value="fdames"> Stadsfiets dames<br> 
+            <input type="radio" name="type" value="fheren"> Stadsfiets heren<br>
+            <input type="radio" name="type" value="efdames"> Elektronische fiets dames<br>
+            <input type="radio" name="type" value="efheren"> Elektronische fiets heren<br>
+            <input type="radio" name="type" value="vf"> Vouwfiets<br>
+
+        <p>Welke maat?</p>
+            <div id="s43"><input type="radio" name="size" > Maat 43<br></div>
+            <div id="s50"><input type="radio" name="size" > Maat 50<br></div>
+            <div id="s57"><input type="radio" name="size" > Maat 57<br></div>
+            <div id="s61"><input type="radio" name="size" > Maat 60<br></div>
+            <div id="nosize"><input type="radio" name="size" > Geen maat<br></div>
+    </form>
+    <div class="photo">
+        <div class="choice">
+            <input type="button" class="c1" value="">
+            <input type="button" class="c2" value="">
+            <input type="button" class="c3" value="">
+        </div>
+        <div class="img"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
